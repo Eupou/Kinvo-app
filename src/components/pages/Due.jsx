@@ -9,6 +9,7 @@ const Due = ({ infoicon, date, daysUntilExpiration }) => {
     return oldDate;
   }
 
+  // formats the data
   newDate = formatDate();
 
   return (
